@@ -1,0 +1,16 @@
+name: Request a feature
+description: Something you'd like Screen Time History to do
+title: "Feature: "
+labels: [feature]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What would you like?
+      placeholder: One or two sentences.
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why? (optional)

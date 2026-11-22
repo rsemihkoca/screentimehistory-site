@@ -1,0 +1,20 @@
+name: It works on my Mac
+description: Add your macOS version to the tested list
+title: "Works: macOS "
+labels: [tested]
+body:
+  - type: input
+    id: macos
+    attributes:
+      label: macOS version
+      description: Apple menu → About This Mac
+      placeholder: "26.4.1 (25E253)"
+    validations:
+      required: true
+  - type: input
+    id: mac
+    attributes:
+      label: Mac
+      placeholder: "Apple M5"
+    validations:
+      required: true
