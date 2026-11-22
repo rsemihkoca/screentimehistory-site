@@ -12,23 +12,54 @@
 <meta property="og:description" content="iPhone deletes your Screen Time after four weeks. This keeps it.">
 <meta property="og:url" content="https://screentimehistory.rsemihkoca.com/">
 <meta property="og:image" content="https://screentimehistory.rsemihkoca.com/assets/icon-512.png">
+<style>
+/* layout only; everything else is the browser's own look */
+body { max-width: 860px; margin: 0 auto; padding: 8px 16px; }
+hr { margin: 6px 0; }
+header { display: flex; align-items: flex-start; gap: 10px; }
+header .title { flex: 1; }
+header .title img { float: left; margin-right: 10px; }
+header .coffee { text-align: center; font-size: small; }
+.cols { display: flex; flex-wrap: wrap; gap: 8px 40px; }
+.info { flex: 1 1 360px; }
+.side { flex: 1 1 240px; }
+h3 { margin: 8px 0 2px; font-size: 1.05em; }
+.story { display: flex; align-items: center; gap: 12px; }
+.story ul { margin: 0; padding-left: 20px; }
+.story li { margin: 2px 0; }
+.story img { border-radius: 6px; }
+.side ul { margin: 0; padding-left: 20px; }
+@media (min-width: 640px) { .side { border-left: 1px solid #ccc; padding-left: 20px; } }
+</style>
 </head>
 <body>
 
-<table width="100%" cellspacing="0" cellpadding="0">
-<tr>
-<td valign="top"><img src="/assets/icon-256.png" width="56" height="56" alt="" align="left" hspace="8"><font size="5"><b>Screen Time History</b></font><br><small>iPhone deletes your Screen Time after four weeks. This keeps it.</small></td>
-<td valign="top" align="right" width="72"><a href="https://buymeacoffee.com/rsemihkoca"><img src="/assets/coffee-qr.svg" width="64" height="64" alt="QR code: buy me a coffee" border="0"><br><small>Buy me<br>a coffee</small></a></td>
-</tr>
-</table>
+<header>
+  <div class="title">
+    <img src="/assets/icon-256.png" width="56" height="56" alt="">
+    <font size="5"><b>Screen Time History</b></font><br>
+    <small>iPhone deletes your Screen Time after four weeks. This keeps it.</small>
+  </div>
+  <a class="coffee" href="https://buymeacoffee.com/rsemihkoca"><img src="/assets/coffee-qr.svg" width="64" height="64" alt="QR code: buy me a coffee" border="0"><br>Buy me<br>a coffee</a>
+</header>
 
 <hr>
 
-<b>Download:</b> Mac (coming soon) &middot; iPhone (coming soon on the App Store)
+<div class="cols">
 
-<hr>
+<div class="info">
+<div class="story">
+<ul>
+<li>Too much screen time?</li>
+<li>Me too. &#128546;</li>
+<li>How do I cut it down? &#8594;</li>
+<li>Gotta measure it first.</li>
+<li>So here we are.</li>
+</ul>
+<img src="/assets/thinking-monkey.jpg" width="104" height="103" alt="A thinking monkey">
+</div>
 
-<b>Sample week</b> &middot; daily average 3h 12m
+<h3>Sample week <small>&middot; daily average 3h 12m</small></h3>
 <table cellspacing="0" cellpadding="1">
 <tr><td nowrap><small>Mon&nbsp;</small></td><td><table cellspacing="0" cellpadding="0"><tr><td bgcolor="#2a78d6" width="75" height="10"></td><td bgcolor="#eb6834" width="37"></td><td bgcolor="#1baf7a" width="20"></td><td bgcolor="#b9b8b2" width="13"></td></tr></table></td><td nowrap><small>&nbsp;3h 17m</small></td></tr>
 <tr><td nowrap><small>Tue&nbsp;</small></td><td><table cellspacing="0" cellpadding="0"><tr><td bgcolor="#2a78d6" width="55" height="10"></td><td bgcolor="#eb6834" width="58"></td><td bgcolor="#1baf7a" width="32"></td><td bgcolor="#b9b8b2" width="12"></td></tr></table></td><td nowrap><small>&nbsp;3h 31m</small></td></tr>
@@ -39,14 +70,30 @@
 <tr><td nowrap><small>Sun&nbsp;</small></td><td><table cellspacing="0" cellpadding="0"><tr><td bgcolor="#2a78d6" width="69" height="10"></td><td bgcolor="#eb6834" width="49"></td><td bgcolor="#1baf7a" width="9"></td><td bgcolor="#b9b8b2" width="13"></td></tr></table></td><td nowrap><small>&nbsp;3h 9m</small></td></tr>
 </table>
 <small><font color="#2a78d6">&#9632;</font> Social <font color="#eb6834">&#9632;</font> Entertainment <font color="#1baf7a">&#9632;</font> Productivity <font color="#b9b8b2">&#9632;</font> Other</small>
+</div>
+
+<div class="side">
+<h3>Download</h3>
+<ul>
+<li>Mac: coming soon</li>
+<li>iPhone: coming soon on the App Store</li>
+</ul>
+
+<h3>Tested on</h3>
+<ul>
+<li>&#9989; macOS 26.4.1 &middot; Apple M5</li>
+<li><a href="https://github.com/rsemihkoca/screentimehistory-site/issues/new?template=works.yml">Works on yours? Tell us</a></li>
+</ul>
+
+<h3>Feedback</h3>
+<ul>
+<li><a href="https://github.com/rsemihkoca/screentimehistory-site/issues/new?template=feature.yml">Request a feature</a> &middot; <a href="https://github.com/rsemihkoca/screentimehistory-site/issues/new?template=problem.yml">Report a problem</a></li>
+</ul>
+</div>
+
+</div>
 
 <hr>
-
-<b>Tested on:</b> &#9989; macOS 26.4.1 &middot; Apple M5 &middot; <a href="https://github.com/rsemihkoca/screentimehistory-site/issues/new?template=works.yml">works on yours?</a><br>
-<b>Feedback:</b> <a href="https://github.com/rsemihkoca/screentimehistory-site/issues/new?template=feature.yml">request a feature</a> &middot; <a href="https://github.com/rsemihkoca/screentimehistory-site/issues/new?template=problem.yml">report a problem</a>
-
-<hr>
-
 <small>Not affiliated with Apple.</small>
 
 </body>
