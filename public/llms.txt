@@ -1,6 +1,6 @@
 # Screen Time History
 
-> Screen Time History keeps your iPhone and Mac Screen Time beyond the roughly four weeks Apple shows. From the day you install it, every day is kept, so you can see your screen time by week, month and year and how your habits change over time. Mac app and iPhone app, coming soon.
+> Screen Time History keeps your iPhone and Mac Screen Time beyond the roughly four weeks Apple shows. From the day you install it, every day is kept, so you can see your screen time by week, month and year and how your habits change over time. The Mac app is available as a direct download from the website; the iPhone app is coming soon.
 
 - Website: https://screentimehistory.rsemihkoca.com/
 - Support the developer: https://buymeacoffee.com/rsemihkoca
@@ -36,6 +36,6 @@ It does not limit or block apps, and it does not replace Apple's Screen Time con
 
 ## Platforms and status
 
-- Mac: coming soon, direct download from the website.
+- Mac: direct download from https://screentimehistory.rsemihkoca.com (macOS 14 or later), updates itself.
 - iPhone: coming soon on the App Store.
-- Languages: English and Turkish.
+- Language: English.
