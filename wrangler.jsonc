@@ -1,9 +1,17 @@
-// Landing page: static files only, served by Cloudflare at screentimehistory.rsemihkoca.com.
+// Landing page: static files only, served by Cloudflare at screentimehistory.com (and www).
+// screentimehistory.rsemihkoca.com stays attached: a Cloudflare redirect rule sends its pages to
+// screentimehistory.com, except /appcast.xml and /download/, which the Mac app's updates read
+// there (that domain outlives the new one's yearly renewal). Deploy only with all three routes:
+// a route left out here is detached from the Worker.
 //   npx wrangler deploy        (from this folder)
 {
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "screentimehistory-site",
   "compatibility_date": "2026-11-01",
   "assets": { "directory": "./public", "html_handling": "auto-trailing-slash", "not_found_handling": "none" },
-  "routes": [{ "pattern": "screentimehistory.rsemihkoca.com", "custom_domain": true }]
+  "routes": [
+    { "pattern": "screentimehistory.com", "custom_domain": true },
+    { "pattern": "www.screentimehistory.com", "custom_domain": true },
+    { "pattern": "screentimehistory.rsemihkoca.com", "custom_domain": true }
+  ]
 }

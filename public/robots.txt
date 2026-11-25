@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://screentimehistory.rsemihkoca.com/sitemap.xml
+Sitemap: https://screentimehistory.com/sitemap.xml
