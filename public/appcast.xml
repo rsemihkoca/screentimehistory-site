@@ -4,12 +4,12 @@
     <title>Screen Time History</title>
     <link>https://screentimehistory.rsemihkoca.com/appcast.xml</link>
     <item>
-      <title>1.0.21</title>
-      <pubDate>Thu, 26 Nov 2026 09:42:00 +0000</pubDate>
-      <sparkle:version>22</sparkle:version>
-      <sparkle:shortVersionString>1.0.21</sparkle:shortVersionString>
+      <title>1.0.22</title>
+      <pubDate>Thu, 26 Nov 2026 11:34:12 +0000</pubDate>
+      <sparkle:version>23</sparkle:version>
+      <sparkle:shortVersionString>1.0.22</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <enclosure url="https://screentimehistory.rsemihkoca.com/download/ScreenTimeHistory-1.0.21.dmg" type="application/octet-stream" sparkle:edSignature="ZgSxa4BFWZr7Jnthw77yshEpSuhEiLnz4tek27EDlBokESfKuZlKNPo9O+NP31P26A8/APP0ujEedJWIbmH+DA==" length="15606143" />
+      <enclosure url="https://screentimehistory.rsemihkoca.com/download/ScreenTimeHistory-1.0.22.dmg" type="application/octet-stream" sparkle:edSignature="jY/KLO0HtGy2jWZh3NV7qhxj2c81e9PGXy6PVOxEIhewVzE41gyzradCLpzh7wS2qQCYgzp19TpCUH5+SbVuDQ==" length="15629315" />
     </item>
   </channel>
 </rss>
